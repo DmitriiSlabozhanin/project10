@@ -17,8 +17,8 @@ document.body.style.background = 'url(../image/you-dont-know-js.jpg) center no-r
 
 reklama.remove();
 
-book3Main[4].replaceWith("Книга 3. this и Прототипы Объектов");
-
+book3Main[4].textContent = "Книга 3. this и Прототипы Объектов";
+book3Main[4].style.color = "darkkhaki";
 
 collections[0].append(elems[2]);
 elems[4].before(elems[6]);
